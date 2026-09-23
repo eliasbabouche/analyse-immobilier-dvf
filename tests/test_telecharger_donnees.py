@@ -80,3 +80,13 @@ def test_fichier_vide_refuse(tmp_path, monkeypatch):
     with pytest.raises(ValueError):
         td.telecharger("http://exemple", destination)
     assert not destination.exists()
+
+
+def test_arrondi_des_contours_polygone_et_multipolygone():
+    # Polygon : une liste d'anneaux, chaque anneau une liste de points [lon, lat].
+    polygone = [[[-1.5538267, 47.2182431], [-1.5512, 47.21]]]
+    assert td.arrondir_coordonnees(polygone, 4) == [[[-1.5538, 47.2182], [-1.5512, 47.21]]]
+
+    # MultiPolygon (commune en plusieurs morceaux, ex. une ile) : un niveau de plus.
+    multi = [polygone, [[[2.123456, 48.654321]]]]
+    assert td.arrondir_coordonnees(multi, 4)[1] == [[[2.1235, 48.6543]]]

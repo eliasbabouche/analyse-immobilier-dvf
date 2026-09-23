@@ -17,6 +17,10 @@ DONNEES_REFERENCE = DOSSIER_DONNEES / "reference"  # petits fichiers versionnes
 
 # Liste des communes de chaque metropole, construite depuis l'API geo.
 FICHIER_METROPOLES = DONNEES_REFERENCE / "communes_metropoles.csv"
+# Contours geographiques des memes communes, pour la carte du dashboard.
+FICHIER_CONTOURS = DONNEES_REFERENCE / "contours_communes.geojson"
+# 4 decimales de degre = environ 10 m : invisible sur la carte, fichier bien plus leger.
+DECIMALES_CONTOURS = 4
 
 # --- Perimetre de l'analyse ---
 ANNEES = [2021, 2022, 2023, 2024, 2025]

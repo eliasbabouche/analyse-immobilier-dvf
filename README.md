@@ -77,6 +77,10 @@ Deux protections complémentaires en découlent : dédoublonner par vente, et tr
   dix métropoles) : leur prix global ne peut pas être réparti entre les logements. Ce sont
   souvent des ventes en bloc à des investisseurs, dont l'exclusion peut légèrement biaiser les
   résultats.
+- **Comparaison à type de bien égal, mais pas à taille égale** : appartements et maisons ne
+  sont jamais mélangés (le centre vend surtout des appartements, la périphérie beaucoup de
+  maisons), mais un studio du centre reste comparé à un T4 de périphérie. Affiner par nombre
+  de pièces ferait passer trop de médianes sous le seuil de 30 ventes.
 - **Neuf exclu** : les ventes sur plan (VEFA) suivent un marché distinct. Les résultats portent
   sur l'ancien.
 - **Strasbourg absente** : l'Alsace et la Moselle relèvent du livre foncier et ne sont pas

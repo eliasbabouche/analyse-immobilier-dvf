@@ -11,6 +11,7 @@ Usage, depuis la racine du projet :
     python -m src.telecharger_donnees
 """
 
+import json
 from pathlib import Path
 
 import pandas as pd
@@ -26,10 +27,10 @@ DELAI_MAX = 60  # secondes, pour ne jamais rester bloque sur un serveur muet
 # --- Referentiel des metropoles -------------------------------------------------------
 
 
-def _appeler_api_geo(chemin: str, champs: str) -> dict | list:
+def _appeler_api_geo(chemin: str, champs: str, **autres_parametres) -> dict | list:
     reponse = requests.get(
         f"{config.URL_API_GEO}{chemin}",
-        params={"fields": champs},
+        params={"fields": champs, **autres_parametres},
         headers=ENTETES,
         timeout=DELAI_MAX,
     )
@@ -61,6 +62,33 @@ def construire_referentiel(villes: dict[str, str]) -> pd.DataFrame:
                 }
             )
     return pd.DataFrame(lignes)
+
+
+def arrondir_coordonnees(coordonnees, decimales: int):
+    """Arrondit toutes les coordonnees d'une geometrie GeoJSON, quelle que soit sa forme.
+
+    Un Polygon est une liste d'anneaux, un MultiPolygon une liste de Polygon : la
+    fonction descend dans les listes jusqu'aux nombres.
+    """
+    if isinstance(coordonnees, (int, float)):
+        return round(coordonnees, decimales)
+    return [arrondir_coordonnees(element, decimales) for element in coordonnees]
+
+
+def construire_contours(codes_epci: list[str]) -> dict:
+    """Contours GeoJSON de toutes les communes des metropoles, coordonnees arrondies."""
+    communes = []
+    for code_epci in codes_epci:
+        collection = _appeler_api_geo(
+            f"/epcis/{code_epci}/communes", "code", format="geojson", geometry="contour"
+        )
+        for commune in collection["features"]:
+            geometrie = commune["geometry"]
+            geometrie["coordinates"] = arrondir_coordonnees(
+                geometrie["coordinates"], config.DECIMALES_CONTOURS
+            )
+            communes.append(commune)
+    return {"type": "FeatureCollection", "features": communes}
 
 
 def departements_a_telecharger(referentiel: pd.DataFrame) -> list[str]:
@@ -121,6 +149,15 @@ def main() -> None:
         index=False,
     )
     print(f"  {len(referentiel)} communes -> {config.FICHIER_METROPOLES.name}")
+
+    print("Contours des communes (API geo) ...")
+    contours = construire_contours(sorted(referentiel["code_epci"].unique()))
+    with open(config.FICHIER_CONTOURS, "w", encoding="utf-8") as fichier:
+        # separators sans espaces : quelques centaines de Ko en moins
+        json.dump(contours, fichier, ensure_ascii=False, separators=(",", ":"))
+    taille = config.FICHIER_CONTOURS.stat().st_size / 1e6
+    print(f"  {len(contours['features'])} contours -> {config.FICHIER_CONTOURS.name} "
+          f"({taille:.1f} Mo)")
 
     departements = departements_a_telecharger(referentiel)
     print(f"Fichiers DVF : {len(departements)} departements x {len(config.ANNEES)} annees")
