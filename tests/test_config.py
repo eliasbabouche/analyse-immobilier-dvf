@@ -5,12 +5,7 @@ format des exports (colonnes attendues, encodage, separateur) et le comportement
 sur donnees d'entree degradees.
 """
 
-import sys
-from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-
-from src import config  # noqa: E402
+from src import config
 
 
 def test_racine_contient_le_readme():
