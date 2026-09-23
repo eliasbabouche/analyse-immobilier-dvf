@@ -3,11 +3,32 @@
 > Comment les prix de l'immobilier ont-ils évolué dans les grandes villes françaises depuis
 > cinq ans, et où l'écart entre le centre et la périphérie se creuse-t-il le plus ?
 
+[![Tests](https://github.com/eliasbabouche/analyse-immobilier-dvf/actions/workflows/tests.yml/badge.svg)](https://github.com/eliasbabouche/analyse-immobilier-dvf/actions/workflows/tests.yml)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://analyse-immobilier-dvf.streamlit.app)
+
 ## Résultat
 
-*En cours de construction : dashboard, capture et chiffres clés à venir.*
+**Démo en ligne : [analyse-immobilier-dvf.streamlit.app](https://analyse-immobilier-dvf.streamlit.app)**
+(si l'application est en veille, cliquer sur le bouton de réveil : environ 30 secondes)
 
-**Démo en ligne** : à venir (Streamlit Community Cloud)
+![Aperçu du dashboard](docs/apercu.png)
+
+**L'écart entre le centre et la périphérie ne se creuse pas : il se resserre, nettement pour
+les appartements.** Entre 2021 et 2025, le prix médian au m² des appartements a davantage baissé
+dans la ville-centre que dans le reste de sa métropole, dans 9 villes sur 10.
+
+| Appartements, prix médian au m² | Centre 2021 → 2025 | Périphérie 2021 → 2025 | Ratio centre / périphérie |
+|---|---|---|---|
+| Nantes | 3 831 € → 3 390 € (−11,5 %) | 2 958 € → 3 000 € (+1,4 %) | 1,30 → 1,13 |
+| Lyon | 5 064 € → 4 470 € (−11,7 %) | 3 469 € → 3 333 € (−3,9 %) | 1,46 → 1,34 |
+| Paris | 10 882 € → 9 729 € (−10,6 %) | 5 590 € → 5 300 € (−5,2 %) | 1,95 → 1,84 |
+| Lille, seule exception | 3 718 € → 3 708 € (−0,3 %) | 2 614 € → 2 586 € (−1,1 %) | 1,42 → 1,43 |
+
+Pour les **maisons**, le résultat est plus contrasté : l'écart se resserre fortement à Paris,
+Rennes et Lyon, mais se creuse légèrement à Nice, Marseille ou Bordeaux. À Marseille et
+Montpellier, la périphérie (Aix-en-Provence, Cassis…) est même plus chère que le centre.
+
+Le dashboard permet d'explorer chaque ville, jusqu'à la commune.
 
 **Notebook de restitution** : [`notebooks/01_restitution.ipynb`](notebooks/01_restitution.ipynb)
 — lisible directement sur GitHub, graphiques compris.
