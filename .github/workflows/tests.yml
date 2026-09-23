@@ -27,7 +27,7 @@ jobs:
           pip install pytest==9.1.1 ruff==0.16.8
 
       - name: Verifier le style
-        run: ruff check src tests
+        run: ruff check .
 
       - name: Lancer les tests
         run: pytest -v

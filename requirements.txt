@@ -8,8 +8,8 @@ matplotlib>=3.7
 pyarrow>=15.0  # lecture et ecriture des fichiers parquet
 
 # Restitution (si le projet a une interface)
-# streamlit>=1.30
-# plotly>=5.18
+streamlit>=1.50
+plotly>=6.0  # cartes MapLibre (Choroplethmap) sans cle d API
 
 # Validation des donnees (fortement recommande des qu'il y a un import de fichier)
 # pandera>=0.18

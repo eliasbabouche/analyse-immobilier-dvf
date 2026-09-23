@@ -97,7 +97,7 @@ Deux protections complémentaires en découlent : dédoublonner par vente, et tr
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-streamlit run src/app.py
+streamlit run app.py
 ```
 
 ## Tests

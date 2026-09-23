@@ -151,6 +151,17 @@ def main() -> None:
     ventes["annee"] = ventes["date_mutation"].dt.year
     ventes.to_parquet(config.FICHIER_VENTES, index=False)
 
+    # Enregistre avec les tableaux agreges : le dashboard l'affiche dans sa section methode.
+    config.DONNEES_AGREGE.mkdir(parents=True, exist_ok=True)
+    pd.DataFrame(
+        {"etape": list(entonnoir_total), "nb_ventes": list(entonnoir_total.values())}
+    ).to_csv(
+        config.DONNEES_AGREGE / "entonnoir.csv",
+        sep=config.SEPARATEUR_EXPORT,
+        encoding=config.ENCODAGE_EXPORT,
+        index=False,
+    )
+
     print("\nEntonnoir (nombre de ventes apres chaque etape) :")
     depart = next(iter(entonnoir_total.values()))
     for etape, nombre in entonnoir_total.items():
