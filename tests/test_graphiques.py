@@ -79,3 +79,9 @@ def test_l_application_s_affiche_sans_erreur():
     app = AppTest.from_file("../app.py", default_timeout=60).run()
     assert not app.exception
     assert "resserré" in app.subheader[0].value
+
+
+def test_variation_lisible_sans_moins_zero():
+    assert g.variation_lisible(-0.003) == "0,00"
+    assert g.variation_lisible(-0.165) == "-0,17"
+    assert g.variation_lisible(0.012) == "+0,01"

@@ -27,6 +27,17 @@ COULEUR_ZONE = {"centre": BLEU, "peripherie": ORANGE}
 NOM_ZONE = {"centre": "Ville-centre", "peripherie": "Périphérie"}
 
 
+def variation_lisible(valeur: float) -> str:
+    """Variation signee a deux decimales, virgule francaise : +0,01 / -0,17 / 0,00.
+
+    Sans le cas particulier, -0,003 s'afficherait "-0,00".
+    """
+    texte = f"{valeur:+.2f}"
+    if float(texte) == 0:
+        texte = "0.00"
+    return texte.replace(".", ",")
+
+
 def _mise_en_forme(fig: go.Figure, titre: str, hauteur: int = 380) -> go.Figure:
     fig.update_layout(
         title={"text": titre, "font": {"size": 16}},
@@ -102,7 +113,7 @@ def barres_variation_ecart(evolution: pd.DataFrame, type_local: str) -> go.Figur
             y=lignes["ville"],
             orientation="h",
             marker={"color": couleurs, "cornerradius": 4},
-            text=[f"{v:+.2f}".replace(".", ",") for v in lignes["variation_ecart"]],
+            text=[variation_lisible(v) for v in lignes["variation_ecart"]],
             textposition="outside",
             customdata=lignes[["ratio_debut", "ratio_fin"]],
             hovertemplate=(

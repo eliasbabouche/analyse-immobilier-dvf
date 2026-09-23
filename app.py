@@ -51,7 +51,7 @@ type_local = TYPES[choix_type]
 
 # --- 1. La reponse -------------------------------------------------------------------------
 resume = g.resume_reponse(tableaux["evolution_ecart"], type_local)
-variation = f"{resume['variation_plus_forte']:+.2f}".replace(".", ",")
+variation = g.variation_lisible(resume["variation_plus_forte"])
 st.subheader(
     f"L'écart s'est resserré dans {resume['nb_resserrement']} villes "
     f"sur {resume['nb_villes']}"
