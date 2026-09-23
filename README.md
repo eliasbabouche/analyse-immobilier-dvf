@@ -5,11 +5,15 @@
 
 [![Tests](https://github.com/eliasbabouche/analyse-immobilier-dvf/actions/workflows/tests.yml/badge.svg)](https://github.com/eliasbabouche/analyse-immobilier-dvf/actions/workflows/tests.yml)
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://analyse-immobilier-dvf.streamlit.app)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eliasbabouche/analyse-immobilier-dvf/blob/main/notebooks/01_restitution.ipynb)
 
 ## Résultat
 
 **Démo en ligne : [analyse-immobilier-dvf.streamlit.app](https://analyse-immobilier-dvf.streamlit.app)**
 (si l'application est en veille, cliquer sur le bouton de réveil : environ 30 secondes)
+
+**Notebook de restitution : [`notebooks/01_restitution.ipynb`](notebooks/01_restitution.ipynb)**,
+le raisonnement pas à pas, lisible directement sur GitHub (ou exécutable dans Colab).
 
 ![Aperçu du dashboard](docs/apercu.png)
 
@@ -30,10 +34,43 @@ Montpellier, la périphérie (Aix-en-Provence, Cassis…) est même plus chère 
 
 Le dashboard permet d'explorer chaque ville, jusqu'à la commune.
 
-**Notebook de restitution** : [`notebooks/01_restitution.ipynb`](notebooks/01_restitution.ipynb)
-— lisible directement sur GitHub, graphiques compris.
+## Deux choix de méthode qui changent le résultat
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eliasbabouche/analyse-immobilier-dvf/blob/main/notebooks/01_restitution.ipynb)
+- **Raisonner par vente, et non par ligne.** Dans le DVF, une vente de plusieurs biens (un
+  appartement, sa cave, son parking) occupe plusieurs lignes, et le prix total de la vente est
+  répété sur chacune. Additionner ou moyenner les lignes compte ce prix plusieurs fois : le volume
+  des ventes de Loire-Atlantique passe de 7,4 à 30 Md€, et le prix moyen au m² des appartements
+  nantais est surévalué de 177 %. Le nettoyage ne garde donc qu'une ligne par vente, pour les
+  seules ventes d'un logement unique (94 % des ventes contenant un logement), et les résultats
+  reposent sur la médiane, peu sensible aux erreurs qui subsisteraient. Des tests verrouillent ce
+  traitement, y compris l'ordre des étapes : compter les logements d'une vente avant d'écarter
+  les surfaces nulles, sans quoi une vente de deux appartements passerait pour une vente d'un seul.
+- **Comparer à type de bien égal.** Le centre vend surtout des appartements (80 % des ventes à
+  Nantes), la périphérie beaucoup de maisons (41 % d'appartements seulement). Mélanger les deux
+  mesure la composition du marché autant que l'effet du lieu : à Nantes en 2021, le prix au m² du
+  centre dépasse celui de la périphérie de 20 % tous biens confondus, mais de 30 % à type de bien
+  égal. L'écart réel serait sous-estimé d'un tiers. Appartements et maisons sont donc toujours
+  analysés séparément.
+
+## Ce qui a été difficile, et ce que j'en retiens
+
+- **Accepter un résultat qui contredit la question de départ.** Le projet partait de l'idée d'un
+  écart qui se creuse ; pour les appartements, les données montrent l'inverse. Plutôt que de
+  chercher un découpage qui confirme l'hypothèse, j'ai reformulé la conclusion et publié les
+  exceptions (Lille, les maisons de Nice ou de Bordeaux). Avoir écrit la question dans ce README
+  avant la première ligne de code m'a empêché de la réécrire après coup.
+- **Les erreurs qui ne produisent aucun message d'erreur.** Filtrer Paris sur son code commune
+  renvoie zéro vente, car le DVF code Paris, Lyon et Marseille par arrondissement. Écrire à la
+  main la liste des départements à télécharger aurait oublié des communes, car le Grand Paris
+  s'étend sur six départements et Aix-Marseille sur trois. Inverser deux étapes du nettoyage
+  garde à tort des ventes de deux logements. Rien ne plante : les chiffres sont simplement faux.
+  D'où deux réflexes : déduire les listes du référentiel officiel au lieu de les écrire, et tester
+  chaque règle sur de petits cas fabriqués à la main dont on connaît le bon résultat.
+- **Arbitrer entre rigueur et lisibilité.** Le seuil de 30 ventes par médiane laisse une partie
+  de la carte en gris ; les bornes fixes de prix écartent quelques ventes de luxe bien réelles ;
+  comparer par nombre de pièces serait plus juste, mais trop peu de médianes resteraient fiables.
+  À chaque fois, j'ai retenu la règle la plus simple à justifier, et écrit ce qu'elle coûte dans
+  les limites ci-dessous.
 
 ## Données
 
@@ -86,8 +123,8 @@ la Loire-Atlantique en 2025 :
 | Indicateur | Calcul naïf (par ligne) | Calcul correct (par vente) | Écart |
 |---|---|---|---|
 | Volume total des ventes | 30,0 Md€ | 7,4 Md€ | ×4,1 |
-| Prix **moyen** au m², appartements à Nantes | 9 555 € | 3 668 € | +161 % |
-| Prix **médian** au m², appartements à Nantes | 3 516 € | 3 385 € | +4 % |
+| Prix **moyen** au m², appartements à Nantes | 9 555 € | 3 450 € | +177 % |
+| Prix **médian** au m², appartements à Nantes | 3 516 € | 3 390 € | +4 % |
 
 Deux protections complémentaires en découlent : dédoublonner par vente, et travailler sur la
 **médiane**, peu sensible aux valeurs extrêmes qui subsisteraient.
