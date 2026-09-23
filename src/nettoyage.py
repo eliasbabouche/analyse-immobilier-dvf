@@ -61,6 +61,16 @@ def garder_ventes(df: pd.DataFrame) -> pd.DataFrame:
     return df[df["nature_mutation"] == "Vente"]
 
 
+def garder_ventes_avec_logement(df: pd.DataFrame) -> pd.DataFrame:
+    """Ecarte les ventes sans aucun logement (parking seul, terrain, commerce).
+
+    Etape distincte pour que l'entonnoir separe ces ventes hors sujet des ventes a
+    plusieurs logements, seul vrai cout de la methode.
+    """
+    avec_logement = df.loc[df["type_local"].isin(config.LOGEMENTS), "id_mutation"]
+    return df[df["id_mutation"].isin(avec_logement)]
+
+
 def garder_ventes_un_logement(df: pd.DataFrame) -> pd.DataFrame:
     """Garde les ventes contenant exactement un logement, et seulement la ligne de celui-ci.
 
@@ -99,6 +109,7 @@ def nettoyer_fichier(
         ("ventes touchant une metropole",
          lambda d: garder_mutations_metropoles(d, set(referentiel["code_commune"]))),
         ("nature = Vente", garder_ventes),
+        ("au moins un logement", garder_ventes_avec_logement),
         # Compter les logements AVANT de filtrer les surfaces : sinon une vente de deux
         # appartements dont l'un a une surface nulle passerait pour une vente d'un seul.
         ("exactement un logement", garder_ventes_un_logement),

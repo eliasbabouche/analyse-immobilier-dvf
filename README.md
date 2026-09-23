@@ -73,8 +73,8 @@ Deux protections complémentaires en découlent : dédoublonner par vente, et tr
 
 ### Choix assumés et limites
 
-- **Ventes à plusieurs logements écartées** (12 % des ventes contenant un logement en
-  Loire-Atlantique) : leur prix global ne peut pas être réparti entre les logements. Ce sont
+- **Ventes à plusieurs logements écartées** (6 % des ventes contenant un logement dans les
+  dix métropoles) : leur prix global ne peut pas être réparti entre les logements. Ce sont
   souvent des ventes en bloc à des investisseurs, dont l'exclusion peut légèrement biaiser les
   résultats.
 - **Neuf exclu** : les ventes sur plan (VEFA) suivent un marché distinct. Les résultats portent
@@ -108,8 +108,12 @@ pytest
 src/          code métier, une responsabilité par module
 tests/        tests unitaires
 notebooks/    restitution : importe depuis src/, ne contient pas de logique métier
-donnees/      brut/ (non versionné) et traite/
+donnees/      brut/ et traite/ (non versionnés), reference/ et agrege/ (petits, versionnés)
 ```
+
+Les tableaux de `donnees/agrege/` sont versionnés pour que le dashboard en ligne n'ait pas à
+retélécharger et nettoyer les données. Toute modification du nettoyage impose de les régénérer
+(`python -m src.nettoyage` puis `python -m src.agregations`) et de les commiter.
 
 Le code vit dans `src/` et reste testable ; le notebook importe depuis `src/` et raconte
 l'histoire. Ses sorties sont volontairement conservées dans le fichier pour que les

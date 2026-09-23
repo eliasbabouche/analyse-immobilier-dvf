@@ -124,6 +124,7 @@ def test_chaine_complete_sur_un_fichier(tmp_path):
             ligne("C", "Appartement", 0),  # piege d'ordre : doit etre ecarte
             ligne("E", "Maison", 100, nature="Echange"),  # echange : ecarte
             ligne("K", "Maison", 100, commune="75108"),  # hors metropole de Nantes
+            ligne("P", "Dépendance", None),  # parking seul : aucun logement
         ]
     )
     fichier = tmp_path / "dvf_2024_44.csv.gz"
@@ -133,4 +134,5 @@ def test_chaine_complete_sur_un_fichier(tmp_path):
 
     assert table["id_mutation"].tolist() == ["A"]
     assert table["prix_m2"].iloc[0] == 4_000
-    assert list(entonnoir.values()) == [4, 3, 1, 1, 1]
+    # metropole (A B C E P), Vente (A B C P), avec logement (A B C), un seul (A), ...
+    assert list(entonnoir.values()) == [5, 4, 3, 1, 1, 1]

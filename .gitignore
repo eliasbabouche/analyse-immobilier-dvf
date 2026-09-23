@@ -25,6 +25,8 @@ donnees/traite/*
 *.sqlite3
 # Exception : les petits fichiers de référence utiles au projet
 !donnees/reference/*.csv
+# Exception : les tableaux agreges (petits) que lit le dashboard deploye
+!donnees/agrege/*.csv
 
 # --- Modèles entraînés (lourds) ---
 *.pkl

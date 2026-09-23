@@ -46,6 +46,12 @@ PRIX_M2_MAX = 30_000
 
 FICHIER_VENTES = DONNEES_TRAITE / "ventes.parquet"
 
+# --- Agregations ---
+# En dessous, une mediane est trop instable pour etre affichee : elle est masquee.
+VENTES_MIN_MEDIANE = 30
+# Tableaux agreges, petits et versionnes : c'est ce que lit le dashboard deploye.
+DONNEES_AGREGE = DOSSIER_DONNEES / "agrege"
+
 # --- Sources ---
 # Millesime fige plutot que "latest" : les resultats restent identiques d'une execution
 # a l'autre, meme apres une nouvelle publication d'Etalab.
@@ -65,5 +71,5 @@ FORMAT_DATE = "%Y-%m-%d"
 
 def creer_dossiers() -> None:
     """Cree l'arborescence de donnees si elle n'existe pas encore."""
-    for dossier in (DONNEES_BRUT, DONNEES_TRAITE, DONNEES_REFERENCE):
+    for dossier in (DONNEES_BRUT, DONNEES_TRAITE, DONNEES_REFERENCE, DONNEES_AGREGE):
         dossier.mkdir(parents=True, exist_ok=True)
