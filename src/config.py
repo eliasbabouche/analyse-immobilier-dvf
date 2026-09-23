@@ -36,6 +36,16 @@ VILLES = {
     "Rennes": "35238",
 }
 
+# --- Regles de nettoyage ---
+LOGEMENTS = ["Maison", "Appartement"]
+# Bornes fixes : elles ecartent les erreurs evidentes (donations a 1 EUR, surfaces mal
+# saisies), pas les valeurs simplement elevees. La mediane fait le reste.
+SURFACE_MIN = 9  # m2, minimum legal d'un logement decent
+PRIX_M2_MIN = 500
+PRIX_M2_MAX = 30_000
+
+FICHIER_VENTES = DONNEES_TRAITE / "ventes.parquet"
+
 # --- Sources ---
 # Millesime fige plutot que "latest" : les resultats restent identiques d'une execution
 # a l'autre, meme apres une nouvelle publication d'Etalab.
