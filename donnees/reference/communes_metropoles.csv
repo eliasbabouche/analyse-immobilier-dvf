@@ -1,0 +1,590 @@
+﻿ville;code_epci;nom_epci;code_commune;nom_commune;code_departement;population;est_centre
+Paris;200054781;Métropole du Grand Paris;75056;Paris;75;2103778;True
+Paris;200054781;Métropole du Grand Paris;91027;Athis-Mons;91;36613;False
+Paris;200054781;Métropole du Grand Paris;91326;Juvisy-sur-Orge;91;19292;False
+Paris;200054781;Métropole du Grand Paris;91432;Morangis;91;14129;False
+Paris;200054781;Métropole du Grand Paris;91479;Paray-Vieille-Poste;91;8202;False
+Paris;200054781;Métropole du Grand Paris;91589;Savigny-sur-Orge;91;37601;False
+Paris;200054781;Métropole du Grand Paris;91687;Viry-Châtillon;91;30838;False
+Paris;200054781;Métropole du Grand Paris;92002;Antony;92;64263;False
+Paris;200054781;Métropole du Grand Paris;92004;Asnières-sur-Seine;92;93941;False
+Paris;200054781;Métropole du Grand Paris;92007;Bagneux;92;44572;False
+Paris;200054781;Métropole du Grand Paris;92009;Bois-Colombes;92;28909;False
+Paris;200054781;Métropole du Grand Paris;92012;Boulogne-Billancourt;92;119019;False
+Paris;200054781;Métropole du Grand Paris;92014;Bourg-la-Reine;92;21019;False
+Paris;200054781;Métropole du Grand Paris;92019;Châtenay-Malabry;92;35825;False
+Paris;200054781;Métropole du Grand Paris;92020;Châtillon;92;36705;False
+Paris;200054781;Métropole du Grand Paris;92022;Chaville;92;20594;False
+Paris;200054781;Métropole du Grand Paris;92023;Clamart;92;58576;False
+Paris;200054781;Métropole du Grand Paris;92024;Clichy;92;64410;False
+Paris;200054781;Métropole du Grand Paris;92025;Colombes;92;91053;False
+Paris;200054781;Métropole du Grand Paris;92026;Courbevoie;92;82902;False
+Paris;200054781;Métropole du Grand Paris;92032;Fontenay-aux-Roses;92;24070;False
+Paris;200054781;Métropole du Grand Paris;92033;Garches;92;17743;False
+Paris;200054781;Métropole du Grand Paris;92035;La Garenne-Colombes;92;30197;False
+Paris;200054781;Métropole du Grand Paris;92036;Gennevilliers;92;50979;False
+Paris;200054781;Métropole du Grand Paris;92040;Issy-les-Moulineaux;92;67669;False
+Paris;200054781;Métropole du Grand Paris;92044;Levallois-Perret;92;68092;False
+Paris;200054781;Métropole du Grand Paris;92046;Malakoff;92;30557;False
+Paris;200054781;Métropole du Grand Paris;92047;Marnes-la-Coquette;92;1752;False
+Paris;200054781;Métropole du Grand Paris;92048;Meudon;92;46334;False
+Paris;200054781;Métropole du Grand Paris;92049;Montrouge;92;46324;False
+Paris;200054781;Métropole du Grand Paris;92050;Nanterre;92;97783;False
+Paris;200054781;Métropole du Grand Paris;92051;Neuilly-sur-Seine;92;59538;False
+Paris;200054781;Métropole du Grand Paris;92060;Le Plessis-Robinson;92;28848;False
+Paris;200054781;Métropole du Grand Paris;92062;Puteaux;92;44002;False
+Paris;200054781;Métropole du Grand Paris;92063;Rueil-Malmaison;92;82874;False
+Paris;200054781;Métropole du Grand Paris;92064;Saint-Cloud;92;29855;False
+Paris;200054781;Métropole du Grand Paris;92071;Sceaux;92;20884;False
+Paris;200054781;Métropole du Grand Paris;92072;Sèvres;92;22303;False
+Paris;200054781;Métropole du Grand Paris;92073;Suresnes;92;48956;False
+Paris;200054781;Métropole du Grand Paris;92075;Vanves;92;28622;False
+Paris;200054781;Métropole du Grand Paris;92076;Vaucresson;92;8432;False
+Paris;200054781;Métropole du Grand Paris;92077;Ville-d'Avray;92;11089;False
+Paris;200054781;Métropole du Grand Paris;92078;Villeneuve-la-Garenne;92;26021;False
+Paris;200054781;Métropole du Grand Paris;93001;Aubervilliers;93;88365;False
+Paris;200054781;Métropole du Grand Paris;93005;Aulnay-sous-Bois;93;87599;False
+Paris;200054781;Métropole du Grand Paris;93006;Bagnolet;93;43086;False
+Paris;200054781;Métropole du Grand Paris;93007;Le Blanc-Mesnil;93;62376;False
+Paris;200054781;Métropole du Grand Paris;93008;Bobigny;93;56927;False
+Paris;200054781;Métropole du Grand Paris;93010;Bondy;93;50595;False
+Paris;200054781;Métropole du Grand Paris;93013;Le Bourget;93;15925;False
+Paris;200054781;Métropole du Grand Paris;93014;Clichy-sous-Bois;93;29354;False
+Paris;200054781;Métropole du Grand Paris;93015;Coubron;93;5175;False
+Paris;200054781;Métropole du Grand Paris;93027;La Courneuve;93;47167;False
+Paris;200054781;Métropole du Grand Paris;93029;Drancy;93;72390;False
+Paris;200054781;Métropole du Grand Paris;93030;Dugny;93;11700;False
+Paris;200054781;Métropole du Grand Paris;93031;Épinay-sur-Seine;93;52833;False
+Paris;200054781;Métropole du Grand Paris;93032;Gagny;93;42313;False
+Paris;200054781;Métropole du Grand Paris;93033;Gournay-sur-Marne;93;7320;False
+Paris;200054781;Métropole du Grand Paris;93039;L'Île-Saint-Denis;93;8696;False
+Paris;200054781;Métropole du Grand Paris;93045;Les Lilas;93;23843;False
+Paris;200054781;Métropole du Grand Paris;93046;Livry-Gargan;93;47228;False
+Paris;200054781;Métropole du Grand Paris;93047;Montfermeil;93;28703;False
+Paris;200054781;Métropole du Grand Paris;93048;Montreuil;93;111934;False
+Paris;200054781;Métropole du Grand Paris;93049;Neuilly-Plaisance;93;21941;False
+Paris;200054781;Métropole du Grand Paris;93050;Neuilly-sur-Marne;93;39800;False
+Paris;200054781;Métropole du Grand Paris;93051;Noisy-le-Grand;93;72978;False
+Paris;200054781;Métropole du Grand Paris;93053;Noisy-le-Sec;93;45510;False
+Paris;200054781;Métropole du Grand Paris;93055;Pantin;93;61929;False
+Paris;200054781;Métropole du Grand Paris;93057;Les Pavillons-sous-Bois;93;25804;False
+Paris;200054781;Métropole du Grand Paris;93061;Le Pré-Saint-Gervais;93;16993;False
+Paris;200054781;Métropole du Grand Paris;93062;Le Raincy;93;14735;False
+Paris;200054781;Métropole du Grand Paris;93063;Romainville;93;37152;False
+Paris;200054781;Métropole du Grand Paris;93064;Rosny-sous-Bois;93;47180;False
+Paris;200054781;Métropole du Grand Paris;93066;Saint-Denis;93;149077;False
+Paris;200054781;Métropole du Grand Paris;93070;Saint-Ouen-sur-Seine;93;53615;False
+Paris;200054781;Métropole du Grand Paris;93071;Sevran;93;52535;False
+Paris;200054781;Métropole du Grand Paris;93072;Stains;93;41388;False
+Paris;200054781;Métropole du Grand Paris;93073;Tremblay-en-France;93;38348;False
+Paris;200054781;Métropole du Grand Paris;93074;Vaujours;93;8007;False
+Paris;200054781;Métropole du Grand Paris;93077;Villemomble;93;29795;False
+Paris;200054781;Métropole du Grand Paris;93078;Villepinte;93;41470;False
+Paris;200054781;Métropole du Grand Paris;93079;Villetaneuse;93;12530;False
+Paris;200054781;Métropole du Grand Paris;94001;Ablon-sur-Seine;94;5988;False
+Paris;200054781;Métropole du Grand Paris;94002;Alfortville;94;45531;False
+Paris;200054781;Métropole du Grand Paris;94003;Arcueil;94;22200;False
+Paris;200054781;Métropole du Grand Paris;94004;Boissy-Saint-Léger;94;17325;False
+Paris;200054781;Métropole du Grand Paris;94011;Bonneuil-sur-Marne;94;18270;False
+Paris;200054781;Métropole du Grand Paris;94015;Bry-sur-Marne;94;18503;False
+Paris;200054781;Métropole du Grand Paris;94016;Cachan;94;31103;False
+Paris;200054781;Métropole du Grand Paris;94017;Champigny-sur-Marne;94;78072;False
+Paris;200054781;Métropole du Grand Paris;94018;Charenton-le-Pont;94;28830;False
+Paris;200054781;Métropole du Grand Paris;94019;Chennevières-sur-Marne;94;18710;False
+Paris;200054781;Métropole du Grand Paris;94021;Chevilly-Larue;94;19826;False
+Paris;200054781;Métropole du Grand Paris;94022;Choisy-le-Roi;94;45946;False
+Paris;200054781;Métropole du Grand Paris;94028;Créteil;94;93397;False
+Paris;200054781;Métropole du Grand Paris;94033;Fontenay-sous-Bois;94;53757;False
+Paris;200054781;Métropole du Grand Paris;94034;Fresnes;94;29528;False
+Paris;200054781;Métropole du Grand Paris;94037;Gentilly;94;19963;False
+Paris;200054781;Métropole du Grand Paris;94038;L'Haÿ-les-Roses;94;31188;False
+Paris;200054781;Métropole du Grand Paris;94041;Ivry-sur-Seine;94;65064;False
+Paris;200054781;Métropole du Grand Paris;94042;Joinville-le-Pont;94;20525;False
+Paris;200054781;Métropole du Grand Paris;94043;Le Kremlin-Bicêtre;94;24110;False
+Paris;200054781;Métropole du Grand Paris;94044;Limeil-Brévannes;94;27406;False
+Paris;200054781;Métropole du Grand Paris;94046;Maisons-Alfort;94;56799;False
+Paris;200054781;Métropole du Grand Paris;94047;Mandres-les-Roses;94;4922;False
+Paris;200054781;Métropole du Grand Paris;94048;Marolles-en-Brie;94;4781;False
+Paris;200054781;Métropole du Grand Paris;94052;Nogent-sur-Marne;94;32455;False
+Paris;200054781;Métropole du Grand Paris;94053;Noiseau;94;4628;False
+Paris;200054781;Métropole du Grand Paris;94054;Orly;94;24658;False
+Paris;200054781;Métropole du Grand Paris;94055;Ormesson-sur-Marne;94;10977;False
+Paris;200054781;Métropole du Grand Paris;94056;Périgny;94;2724;False
+Paris;200054781;Métropole du Grand Paris;94058;Le Perreux-sur-Marne;94;35260;False
+Paris;200054781;Métropole du Grand Paris;94059;Le Plessis-Trévise;94;21112;False
+Paris;200054781;Métropole du Grand Paris;94060;La Queue-en-Brie;94;12241;False
+Paris;200054781;Métropole du Grand Paris;94065;Rungis;94;5611;False
+Paris;200054781;Métropole du Grand Paris;94067;Saint-Mandé;94;21071;False
+Paris;200054781;Métropole du Grand Paris;94068;Saint-Maur-des-Fossés;94;76572;False
+Paris;200054781;Métropole du Grand Paris;94069;Saint-Maurice;94;14506;False
+Paris;200054781;Métropole du Grand Paris;94070;Santeny;94;3913;False
+Paris;200054781;Métropole du Grand Paris;94071;Sucy-en-Brie;94;27764;False
+Paris;200054781;Métropole du Grand Paris;94073;Thiais;94;32918;False
+Paris;200054781;Métropole du Grand Paris;94074;Valenton;94;14406;False
+Paris;200054781;Métropole du Grand Paris;94075;Villecresnes;94;11647;False
+Paris;200054781;Métropole du Grand Paris;94076;Villejuif;94;60183;False
+Paris;200054781;Métropole du Grand Paris;94077;Villeneuve-le-Roi;94;21000;False
+Paris;200054781;Métropole du Grand Paris;94078;Villeneuve-Saint-Georges;94;36221;False
+Paris;200054781;Métropole du Grand Paris;94079;Villiers-sur-Marne;94;33162;False
+Paris;200054781;Métropole du Grand Paris;94080;Vincennes;94;48193;False
+Paris;200054781;Métropole du Grand Paris;94081;Vitry-sur-Seine;94;93963;False
+Paris;200054781;Métropole du Grand Paris;95018;Argenteuil;95;106130;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13001;Aix-en-Provence;13;149695;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13002;Allauch;13;21443;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13003;Alleins;13;2852;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13005;Aubagne;13;47529;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13007;Auriol;13;13037;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13008;Aurons;13;555;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13009;La Barben;13;868;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13012;Beaurecueil;13;585;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13013;Belcodène;13;2009;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13014;Berre-l'Étang;13;13832;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13015;Bouc-Bel-Air;13;15381;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13016;La Bouilladisse;13;6547;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13019;Cabriès;13;10240;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13020;Cadolive;13;2236;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13021;Carry-le-Rouet;13;5702;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13022;Cassis;13;6661;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13023;Ceyreste;13;4863;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13024;Charleval;13;2640;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13025;Châteauneuf-le-Rouge;13;2376;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13026;Châteauneuf-les-Martigues;13;18455;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13028;La Ciotat;13;38477;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13029;Cornillon-Confoux;13;1667;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13030;Cuges-les-Pins;13;6236;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13031;La Destrousse;13;4133;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13032;Éguilles;13;8479;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13033;Ensuès-la-Redonne;13;5757;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13035;Eyguières;13;7119;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13037;La Fare-les-Oliviers;13;9039;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13039;Fos-sur-Mer;13;15862;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13040;Fuveau;13;10337;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13041;Gardanne;13;21597;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13042;Gémenos;13;6579;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13043;Gignac-la-Nerthe;13;10343;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13044;Grans;13;5489;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13046;Gréasque;13;4554;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13047;Istres;13;44292;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13048;Jouques;13;4547;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13049;Lamanon;13;2097;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13050;Lambesc;13;10024;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13051;Lançon-Provence;13;9915;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13053;Mallemort;13;6166;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13054;Marignane;13;33692;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13055;Marseille;13;886040;True
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13056;Martigues;13;48298;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13059;Meyrargues;13;3847;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13060;Meyreuil;13;6747;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13062;Mimet;13;4241;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13063;Miramas;13;26203;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13069;Pélissanne;13;11085;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13070;La Penne-sur-Huveaune;13;6605;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13071;Les Pennes-Mirabeau;13;22537;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13072;Peynier;13;3739;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13073;Peypin;13;5771;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13074;Peyrolles-en-Provence;13;5409;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13075;Plan-de-Cuques;13;11632;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13077;Port-de-Bouc;13;15802;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13078;Port-Saint-Louis-du-Rhône;13;8573;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13079;Puyloubier;13;1768;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13080;Le Puy-Sainte-Réparade;13;5935;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13081;Rognac;13;12576;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13082;Rognes;13;4693;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13084;La Roque-d'Anthéron;13;5459;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13085;Roquefort-la-Bédoule;13;5798;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13086;Roquevaire;13;8915;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13087;Rousset;13;5425;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13088;Le Rove;13;5246;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13090;Saint-Antonin-sur-Bayon;13;126;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13091;Saint-Cannat;13;6097;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13092;Saint-Chamas;13;8676;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13093;Saint-Estève-Janson;13;357;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13095;Saint-Marc-Jaumegarde;13;1273;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13098;Saint-Mitre-les-Remparts;13;6175;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13099;Saint-Paul-lès-Durance;13;885;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13101;Saint-Savournin;13;3397;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13102;Saint-Victoret;13;6730;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13103;Salon-de-Provence;13;44194;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13104;Sausset-les-Pins;13;7574;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13105;Sénas;13;6925;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13106;Septèmes-les-Vallons;13;11995;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13107;Simiane-Collongue;13;5780;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13109;Le Tholonet;13;2391;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13110;Trets;13;10946;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13111;Vauvenargues;13;1058;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13112;Velaux;13;8941;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13113;Venelles;13;8418;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13114;Ventabren;13;5839;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13115;Vernègues;13;2166;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13117;Vitrolles;13;36758;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13118;Coudoux;13;3825;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;13119;Carnoux-en-Provence;13;6873;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;83120;Saint-Zacharie;83;5879;False
+Marseille;200054807;Métropole d'Aix-Marseille-Provence;84089;Pertuis;84;19548;False
+Lyon;200046977;Métropole de Lyon;69003;Albigny-sur-Saône;69;3057;False
+Lyon;200046977;Métropole de Lyon;69029;Bron;69;42982;False
+Lyon;200046977;Métropole de Lyon;69033;Cailloux-sur-Fontaines;69;2989;False
+Lyon;200046977;Métropole de Lyon;69034;Caluire-et-Cuire;69;43597;False
+Lyon;200046977;Métropole de Lyon;69040;Champagne-au-Mont-d'Or;69;6311;False
+Lyon;200046977;Métropole de Lyon;69044;Charbonnières-les-Bains;69;5383;False
+Lyon;200046977;Métropole de Lyon;69046;Charly;69;4811;False
+Lyon;200046977;Métropole de Lyon;69063;Collonges-au-Mont-d'Or;69;4669;False
+Lyon;200046977;Métropole de Lyon;69068;Couzon-au-Mont-d'Or;69;2619;False
+Lyon;200046977;Métropole de Lyon;69069;Craponne;69;12084;False
+Lyon;200046977;Métropole de Lyon;69071;Curis-au-Mont-d'Or;69;1195;False
+Lyon;200046977;Métropole de Lyon;69072;Dardilly;69;9221;False
+Lyon;200046977;Métropole de Lyon;69081;Écully;69;17944;False
+Lyon;200046977;Métropole de Lyon;69085;Fleurieu-sur-Saône;69;1597;False
+Lyon;200046977;Métropole de Lyon;69087;Fontaines-Saint-Martin;69;3098;False
+Lyon;200046977;Métropole de Lyon;69088;Fontaines-sur-Saône;69;6957;False
+Lyon;200046977;Métropole de Lyon;69089;Francheville;69;15604;False
+Lyon;200046977;Métropole de Lyon;69091;Givors;69;21379;False
+Lyon;200046977;Métropole de Lyon;69096;Grigny-sur-Rhône;69;10030;False
+Lyon;200046977;Métropole de Lyon;69100;Irigny;69;9034;False
+Lyon;200046977;Métropole de Lyon;69116;Limonest;69;4012;False
+Lyon;200046977;Métropole de Lyon;69117;Lissieu;69;3181;False
+Lyon;200046977;Métropole de Lyon;69123;Lyon;69;519127;True
+Lyon;200046977;Métropole de Lyon;69127;Marcy-l'Étoile;69;3778;False
+Lyon;200046977;Métropole de Lyon;69142;La Mulatière;69;6534;False
+Lyon;200046977;Métropole de Lyon;69143;Neuville-sur-Saône;69;7812;False
+Lyon;200046977;Métropole de Lyon;69149;Oullins-Pierre-Bénite;69;38168;False
+Lyon;200046977;Métropole de Lyon;69153;Poleymieux-au-Mont-d'Or;69;1412;False
+Lyon;200046977;Métropole de Lyon;69163;Quincieux;69;3679;False
+Lyon;200046977;Métropole de Lyon;69168;Rochetaillée-sur-Saône;69;1551;False
+Lyon;200046977;Métropole de Lyon;69191;Saint-Cyr-au-Mont-d'Or;69;6327;False
+Lyon;200046977;Métropole de Lyon;69194;Saint-Didier-au-Mont-d'Or;69;7435;False
+Lyon;200046977;Métropole de Lyon;69199;Saint-Fons;69;19285;False
+Lyon;200046977;Métropole de Lyon;69202;Sainte-Foy-lès-Lyon;69;21692;False
+Lyon;200046977;Métropole de Lyon;69204;Saint-Genis-Laval;69;21212;False
+Lyon;200046977;Métropole de Lyon;69205;Saint-Genis-les-Ollières;69;5439;False
+Lyon;200046977;Métropole de Lyon;69207;Saint-Germain-au-Mont-d'Or;69;3124;False
+Lyon;200046977;Métropole de Lyon;69233;Saint-Romain-au-Mont-d'Or;69;1247;False
+Lyon;200046977;Métropole de Lyon;69244;Tassin-la-Demi-Lune;69;23200;False
+Lyon;200046977;Métropole de Lyon;69250;La Tour-de-Salvagny;69;4649;False
+Lyon;200046977;Métropole de Lyon;69256;Vaulx-en-Velin;69;53069;False
+Lyon;200046977;Métropole de Lyon;69259;Vénissieux;69;65502;False
+Lyon;200046977;Métropole de Lyon;69260;Vernaison;69;5210;False
+Lyon;200046977;Métropole de Lyon;69266;Villeurbanne;69;163684;False
+Lyon;200046977;Métropole de Lyon;69271;Chassieu;69;11208;False
+Lyon;200046977;Métropole de Lyon;69273;Corbas;69;11315;False
+Lyon;200046977;Métropole de Lyon;69275;Décines-Charpieu;69;29877;False
+Lyon;200046977;Métropole de Lyon;69276;Feyzin;69;10304;False
+Lyon;200046977;Métropole de Lyon;69278;Genay;69;5585;False
+Lyon;200046977;Métropole de Lyon;69279;Jonage;69;6144;False
+Lyon;200046977;Métropole de Lyon;69282;Meyzieu;69;36687;False
+Lyon;200046977;Métropole de Lyon;69283;Mions;69;13843;False
+Lyon;200046977;Métropole de Lyon;69284;Montanay;69;3308;False
+Lyon;200046977;Métropole de Lyon;69286;Rillieux-la-Pape;69;31389;False
+Lyon;200046977;Métropole de Lyon;69290;Saint-Priest;69;49229;False
+Lyon;200046977;Métropole de Lyon;69292;Sathonay-Camp;69;7019;False
+Lyon;200046977;Métropole de Lyon;69293;Sathonay-Village;69;2412;False
+Lyon;200046977;Métropole de Lyon;69296;Solaize;69;3144;False
+Toulouse;243100518;Toulouse Métropole;31003;Aigrefeuille;31;1369;False
+Toulouse;243100518;Toulouse Métropole;31022;Aucamville;31;9623;False
+Toulouse;243100518;Toulouse Métropole;31032;Aussonne;31;7997;False
+Toulouse;243100518;Toulouse Métropole;31044;Balma;31;17772;False
+Toulouse;243100518;Toulouse Métropole;31053;Beaupuy;31;1283;False
+Toulouse;243100518;Toulouse Métropole;31056;Beauzelle;31;8713;False
+Toulouse;243100518;Toulouse Métropole;31069;Blagnac;31;27604;False
+Toulouse;243100518;Toulouse Métropole;31088;Brax;31;3037;False
+Toulouse;243100518;Toulouse Métropole;31091;Bruguières;31;6202;False
+Toulouse;243100518;Toulouse Métropole;31116;Castelginest;31;11271;False
+Toulouse;243100518;Toulouse Métropole;31149;Colomiers;31;40882;False
+Toulouse;243100518;Toulouse Métropole;31150;Cornebarrieu;31;8978;False
+Toulouse;243100518;Toulouse Métropole;31157;Cugnaux;31;20662;False
+Toulouse;243100518;Toulouse Métropole;31163;Drémil-Lafage;31;2608;False
+Toulouse;243100518;Toulouse Métropole;31182;Fenouillet;31;5784;False
+Toulouse;243100518;Toulouse Métropole;31184;Flourens;31;2084;False
+Toulouse;243100518;Toulouse Métropole;31186;Fonbeauzard;31;3204;False
+Toulouse;243100518;Toulouse Métropole;31205;Gagnac-sur-Garonne;31;3198;False
+Toulouse;243100518;Toulouse Métropole;31230;Gratentour;31;4906;False
+Toulouse;243100518;Toulouse Métropole;31282;Launaguet;31;9173;False
+Toulouse;243100518;Toulouse Métropole;31293;Lespinasse;31;3251;False
+Toulouse;243100518;Toulouse Métropole;31351;Mondonville;31;6060;False
+Toulouse;243100518;Toulouse Métropole;31352;Mondouzil;31;210;False
+Toulouse;243100518;Toulouse Métropole;31355;Mons;31;1861;False
+Toulouse;243100518;Toulouse Métropole;31389;Montrabé;31;4473;False
+Toulouse;243100518;Toulouse Métropole;31417;Pibrac;31;8977;False
+Toulouse;243100518;Toulouse Métropole;31418;Pin-Balma;31;1081;False
+Toulouse;243100518;Toulouse Métropole;31445;Quint-Fonsegrives;31;6133;False
+Toulouse;243100518;Toulouse Métropole;31467;Saint-Alban;31;6534;False
+Toulouse;243100518;Toulouse Métropole;31488;Saint-Jean;31;11261;False
+Toulouse;243100518;Toulouse Métropole;31490;Saint-Jory;31;8662;False
+Toulouse;243100518;Toulouse Métropole;31506;Saint-Orens-de-Gameville;31;14646;False
+Toulouse;243100518;Toulouse Métropole;31541;Seilh;31;3356;False
+Toulouse;243100518;Toulouse Métropole;31555;Toulouse;31;514819;True
+Toulouse;243100518;Toulouse Métropole;31557;Tournefeuille;31;30168;False
+Toulouse;243100518;Toulouse Métropole;31561;L'Union;31;12638;False
+Toulouse;243100518;Toulouse Métropole;31588;Villeneuve-Tolosane;31;11044;False
+Nice;200030195;Métropole Nice Côte d'Azur;06006;Aspremont;06;2346;False
+Nice;200030195;Métropole Nice Côte d'Azur;06009;Bairols;06;105;False
+Nice;200030195;Métropole Nice Côte d'Azur;06011;Beaulieu-sur-Mer;06;3874;False
+Nice;200030195;Métropole Nice Côte d'Azur;06013;Belvédère;06;601;False
+Nice;200030195;Métropole Nice Côte d'Azur;06020;La Bollène-Vésubie;06;662;False
+Nice;200030195;Métropole Nice Côte d'Azur;06021;Bonson;06;740;False
+Nice;200030195;Métropole Nice Côte d'Azur;06025;Le Broc;06;1446;False
+Nice;200030195;Métropole Nice Côte d'Azur;06027;Cagnes-sur-Mer;06;53354;False
+Nice;200030195;Métropole Nice Côte d'Azur;06032;Cap-d'Ail;06;4482;False
+Nice;200030195;Métropole Nice Côte d'Azur;06033;Carros;06;13803;False
+Nice;200030195;Métropole Nice Côte d'Azur;06034;Castagniers;06;1666;False
+Nice;200030195;Métropole Nice Côte d'Azur;06039;Châteauneuf-Villevieille;06;997;False
+Nice;200030195;Métropole Nice Côte d'Azur;06042;Clans;06;703;False
+Nice;200030195;Métropole Nice Côte d'Azur;06046;Colomars;06;3409;False
+Nice;200030195;Métropole Nice Côte d'Azur;06054;Drap;06;5484;False
+Nice;200030195;Métropole Nice Côte d'Azur;06055;Duranus;06;151;False
+Nice;200030195;Métropole Nice Côte d'Azur;06059;Èze;06;2144;False
+Nice;200030195;Métropole Nice Côte d'Azur;06060;Falicon;06;2185;False
+Nice;200030195;Métropole Nice Côte d'Azur;06064;Gattières;06;4358;False
+Nice;200030195;Métropole Nice Côte d'Azur;06065;La Gaude;06;7265;False
+Nice;200030195;Métropole Nice Côte d'Azur;06066;Gilette;06;1627;False
+Nice;200030195;Métropole Nice Côte d'Azur;06072;Ilonse;06;132;False
+Nice;200030195;Métropole Nice Côte d'Azur;06073;Isola;06;642;False
+Nice;200030195;Métropole Nice Côte d'Azur;06074;Lantosque;06;1198;False
+Nice;200030195;Métropole Nice Côte d'Azur;06075;Levens;06;5377;False
+Nice;200030195;Métropole Nice Côte d'Azur;06080;Marie;06;109;False
+Nice;200030195;Métropole Nice Côte d'Azur;06088;Nice;06;357737;True
+Nice;200030195;Métropole Nice Côte d'Azur;06102;Rimplas;06;156;False
+Nice;200030195;Métropole Nice Côte d'Azur;06103;Roquebillière;06;1818;False
+Nice;200030195;Métropole Nice Côte d'Azur;06109;La Roquette-sur-Var;06;921;False
+Nice;200030195;Métropole Nice Côte d'Azur;06110;Roubion;06;112;False
+Nice;200030195;Métropole Nice Côte d'Azur;06111;Roure;06;116;False
+Nice;200030195;Métropole Nice Côte d'Azur;06114;Saint-André-de-la-Roche;06;5896;False
+Nice;200030195;Métropole Nice Côte d'Azur;06117;Saint-Blaise;06;1397;False
+Nice;200030195;Métropole Nice Côte d'Azur;06119;Saint-Dalmas-le-Selvage;06;98;False
+Nice;200030195;Métropole Nice Côte d'Azur;06120;Saint-Étienne-de-Tinée;06;1289;False
+Nice;200030195;Métropole Nice Côte d'Azur;06121;Saint-Jean-Cap-Ferrat;06;1531;False
+Nice;200030195;Métropole Nice Côte d'Azur;06122;Saint-Jeannet;06;4453;False
+Nice;200030195;Métropole Nice Côte d'Azur;06123;Saint-Laurent-du-Var;06;32172;False
+Nice;200030195;Métropole Nice Côte d'Azur;06126;Saint-Martin-du-Var;06;3431;False
+Nice;200030195;Métropole Nice Côte d'Azur;06127;Saint-Martin-Vésubie;06;1337;False
+Nice;200030195;Métropole Nice Côte d'Azur;06129;Saint-Sauveur-sur-Tinée;06;290;False
+Nice;200030195;Métropole Nice Côte d'Azur;06144;La Tour;06;540;False
+Nice;200030195;Métropole Nice Côte d'Azur;06146;Tournefort;06;147;False
+Nice;200030195;Métropole Nice Côte d'Azur;06147;Tourrette-Levens;06;4624;False
+Nice;200030195;Métropole Nice Côte d'Azur;06149;La Trinité;06;10602;False
+Nice;200030195;Métropole Nice Côte d'Azur;06151;Utelle;06;805;False
+Nice;200030195;Métropole Nice Côte d'Azur;06153;Valdeblore;06;835;False
+Nice;200030195;Métropole Nice Côte d'Azur;06156;Venanson;06;195;False
+Nice;200030195;Métropole Nice Côte d'Azur;06157;Vence;06;19917;False
+Nice;200030195;Métropole Nice Côte d'Azur;06159;Villefranche-sur-Mer;06;5008;False
+Nantes;244400404;Nantes Métropole;44009;Basse-Goulaine;44;9679;False
+Nantes;244400404;Nantes Métropole;44018;Bouaye;44;8343;False
+Nantes;244400404;Nantes Métropole;44020;Bouguenais;44;20530;False
+Nantes;244400404;Nantes Métropole;44024;Brains;44;2709;False
+Nantes;244400404;Nantes Métropole;44026;Carquefou;44;20921;False
+Nantes;244400404;Nantes Métropole;44035;La Chapelle-sur-Erdre;44;20690;False
+Nantes;244400404;Nantes Métropole;44047;Couëron;44;24103;False
+Nantes;244400404;Nantes Métropole;44074;Indre;44;4160;False
+Nantes;244400404;Nantes Métropole;44094;Mauves-sur-Loire;44;3409;False
+Nantes;244400404;Nantes Métropole;44101;La Montagne;44;6505;False
+Nantes;244400404;Nantes Métropole;44109;Nantes;44;327734;True
+Nantes;244400404;Nantes Métropole;44114;Orvault;44;28534;False
+Nantes;244400404;Nantes Métropole;44120;Le Pellerin;44;5319;False
+Nantes;244400404;Nantes Métropole;44143;Rezé;44;43556;False
+Nantes;244400404;Nantes Métropole;44150;Saint-Aignan-Grandlieu;44;3996;False
+Nantes;244400404;Nantes Métropole;44162;Saint-Herblain;44;50973;False
+Nantes;244400404;Nantes Métropole;44166;Saint-Jean-de-Boiseau;44;6067;False
+Nantes;244400404;Nantes Métropole;44171;Saint-Léger-les-Vignes;44;2171;False
+Nantes;244400404;Nantes Métropole;44172;Sainte-Luce-sur-Loire;44;16400;False
+Nantes;244400404;Nantes Métropole;44190;Saint-Sébastien-sur-Loire;44;28596;False
+Nantes;244400404;Nantes Métropole;44194;Sautron;44;8555;False
+Nantes;244400404;Nantes Métropole;44198;Les Sorinières;44;9275;False
+Nantes;244400404;Nantes Métropole;44204;Thouaré-sur-Loire;44;11004;False
+Nantes;244400404;Nantes Métropole;44215;Vertou;44;26227;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34022;Baillargues;34;7829;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34027;Beaulieu;34;2264;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34057;Castelnau-le-Lez;34;26058;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34058;Castries;34;6883;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34077;Clapiers;34;6006;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34087;Cournonsec;34;3616;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34088;Cournonterral;34;7359;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34090;Le Crès;34;9226;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34095;Fabrègues;34;7447;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34116;Grabels;34;9092;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34120;Jacou;34;6924;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34123;Juvignac;34;14055;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34129;Lattes;34;17351;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34134;Lavérune;34;3302;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34164;Montaud;34;1014;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34169;Montferrier-sur-Lez;34;4135;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34172;Montpellier;34;310240;True
+Montpellier;243400017;Montpellier Méditerranée Métropole;34179;Murviel-lès-Montpellier;34;2075;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34198;Pérols;34;9615;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34202;Pignan;34;8431;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34217;Prades-le-Lez;34;6184;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34227;Restinclières;34;2612;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34244;Saint-Brès;34;3623;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34249;Saint-Drézéry;34;3006;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34256;Saint-Geniès-des-Mourgues;34;2148;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34259;Saint-Georges-d'Orques;34;5676;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34270;Saint-Jean-de-Védas;34;13328;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34295;Saussan;34;2069;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34307;Sussargues;34;2840;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34327;Vendargues;34;7262;False
+Montpellier;243400017;Montpellier Méditerranée Métropole;34337;Villeneuve-lès-Maguelone;34;10872;False
+Bordeaux;243300316;Bordeaux Métropole;33003;Ambarès-et-Lagrave;33;17644;False
+Bordeaux;243300316;Bordeaux Métropole;33004;Ambès;33;3313;False
+Bordeaux;243300316;Bordeaux Métropole;33013;Artigues-près-Bordeaux;33;8687;False
+Bordeaux;243300316;Bordeaux Métropole;33032;Bassens;33;8435;False
+Bordeaux;243300316;Bordeaux Métropole;33039;Bègles;33;31831;False
+Bordeaux;243300316;Bordeaux Métropole;33056;Blanquefort;33;17215;False
+Bordeaux;243300316;Bordeaux Métropole;33063;Bordeaux;33;267991;True
+Bordeaux;243300316;Bordeaux Métropole;33065;Bouliac;33;3804;False
+Bordeaux;243300316;Bordeaux Métropole;33069;Le Bouscat;33;25081;False
+Bordeaux;243300316;Bordeaux Métropole;33075;Bruges;33;20020;False
+Bordeaux;243300316;Bordeaux Métropole;33096;Carbon-Blanc;33;8331;False
+Bordeaux;243300316;Bordeaux Métropole;33119;Cenon;33;26834;False
+Bordeaux;243300316;Bordeaux Métropole;33162;Eysines;33;24825;False
+Bordeaux;243300316;Bordeaux Métropole;33167;Floirac;33;18300;False
+Bordeaux;243300316;Bordeaux Métropole;33192;Gradignan;33;26952;False
+Bordeaux;243300316;Bordeaux Métropole;33200;Le Haillan;33;11392;False
+Bordeaux;243300316;Bordeaux Métropole;33249;Lormont;33;25769;False
+Bordeaux;243300316;Bordeaux Métropole;33273;Martignas-sur-Jalle;33;8056;False
+Bordeaux;243300316;Bordeaux Métropole;33281;Mérignac;33;78090;False
+Bordeaux;243300316;Bordeaux Métropole;33312;Parempuyre;33;10672;False
+Bordeaux;243300316;Bordeaux Métropole;33318;Pessac;33;67339;False
+Bordeaux;243300316;Bordeaux Métropole;33376;Saint-Aubin-de-Médoc;33;7769;False
+Bordeaux;243300316;Bordeaux Métropole;33434;Saint-Louis-de-Montferrand;33;2051;False
+Bordeaux;243300316;Bordeaux Métropole;33449;Saint-Médard-en-Jalles;33;32910;False
+Bordeaux;243300316;Bordeaux Métropole;33487;Saint-Vincent-de-Paul;33;1067;False
+Bordeaux;243300316;Bordeaux Métropole;33519;Le Taillan-Médoc;33;11073;False
+Bordeaux;243300316;Bordeaux Métropole;33522;Talence;33;46338;False
+Bordeaux;243300316;Bordeaux Métropole;33550;Villenave-d'Ornon;33;42545;False
+Lille;200093201;Métropole Européenne de Lille;59005;Allennes-les-Marais;59;3545;False
+Lille;200093201;Métropole Européenne de Lille;59009;Villeneuve-d'Ascq;59;62868;False
+Lille;200093201;Métropole Européenne de Lille;59011;Annœullin;59;10847;False
+Lille;200093201;Métropole Européenne de Lille;59013;Anstaing;59;1631;False
+Lille;200093201;Métropole Européenne de Lille;59017;Armentières;59;26998;False
+Lille;200093201;Métropole Européenne de Lille;59025;Aubers;59;1749;False
+Lille;200093201;Métropole Européenne de Lille;59044;Baisieux;59;5545;False
+Lille;200093201;Métropole Européenne de Lille;59051;La Bassée;59;6650;False
+Lille;200093201;Métropole Européenne de Lille;59052;Bauvin;59;5249;False
+Lille;200093201;Métropole Européenne de Lille;59056;Beaucamps-Ligny;59;845;False
+Lille;200093201;Métropole Européenne de Lille;59088;Bois-Grenier;59;1775;False
+Lille;200093201;Métropole Européenne de Lille;59090;Bondues;59;9747;False
+Lille;200093201;Métropole Européenne de Lille;59098;Bousbecque;59;4978;False
+Lille;200093201;Métropole Européenne de Lille;59106;Bouvines;59;766;False
+Lille;200093201;Métropole Européenne de Lille;59128;Capinghem;59;2728;False
+Lille;200093201;Métropole Européenne de Lille;59133;Carnin;59;1105;False
+Lille;200093201;Métropole Européenne de Lille;59143;La Chapelle-d'Armentières;59;8754;False
+Lille;200093201;Métropole Européenne de Lille;59146;Chéreng;59;3078;False
+Lille;200093201;Métropole Européenne de Lille;59152;Comines;59;12731;False
+Lille;200093201;Métropole Européenne de Lille;59163;Croix;59;20566;False
+Lille;200093201;Métropole Européenne de Lille;59173;Deûlémont;59;1778;False
+Lille;200093201;Métropole Européenne de Lille;59193;Emmerin;59;3026;False
+Lille;200093201;Métropole Européenne de Lille;59195;Englos;59;618;False
+Lille;200093201;Métropole Européenne de Lille;59196;Ennetières-en-Weppes;59;1280;False
+Lille;200093201;Métropole Européenne de Lille;59201;Erquinghem-le-Sec;59;620;False
+Lille;200093201;Métropole Européenne de Lille;59202;Erquinghem-Lys;59;5341;False
+Lille;200093201;Métropole Européenne de Lille;59208;Escobecques;59;302;False
+Lille;200093201;Métropole Européenne de Lille;59220;Faches-Thumesnil;59;18619;False
+Lille;200093201;Métropole Européenne de Lille;59247;Forest-sur-Marque;59;1662;False
+Lille;200093201;Métropole Européenne de Lille;59250;Fournes-en-Weppes;59;2179;False
+Lille;200093201;Métropole Européenne de Lille;59252;Frelinghien;59;2609;False
+Lille;200093201;Métropole Européenne de Lille;59256;Fretin;59;3214;False
+Lille;200093201;Métropole Européenne de Lille;59257;Fromelles;59;1161;False
+Lille;200093201;Métropole Européenne de Lille;59275;Gruson;59;1207;False
+Lille;200093201;Métropole Européenne de Lille;59278;Hallennes-lez-Haubourdin;59;4683;False
+Lille;200093201;Métropole Européenne de Lille;59279;Halluin;59;20715;False
+Lille;200093201;Métropole Européenne de Lille;59281;Hantay;59;1244;False
+Lille;200093201;Métropole Européenne de Lille;59286;Haubourdin;59;15074;False
+Lille;200093201;Métropole Européenne de Lille;59299;Hem;59;18582;False
+Lille;200093201;Métropole Européenne de Lille;59303;Herlies;59;2267;False
+Lille;200093201;Métropole Européenne de Lille;59316;Houplin-Ancoisne;59;3326;False
+Lille;200093201;Métropole Européenne de Lille;59317;Houplines;59;7921;False
+Lille;200093201;Métropole Européenne de Lille;59320;Illies;59;1712;False
+Lille;200093201;Métropole Européenne de Lille;59328;Lambersart;59;27090;False
+Lille;200093201;Métropole Européenne de Lille;59332;Lannoy;59;1812;False
+Lille;200093201;Métropole Européenne de Lille;59339;Leers;59;9521;False
+Lille;200093201;Métropole Européenne de Lille;59343;Lesquin;59;9600;False
+Lille;200093201;Métropole Européenne de Lille;59346;Lezennes;59;2978;False
+Lille;200093201;Métropole Européenne de Lille;59350;Lille;59;238246;True
+Lille;200093201;Métropole Européenne de Lille;59352;Linselles;59;8161;False
+Lille;200093201;Métropole Européenne de Lille;59356;Lompret;59;2155;False
+Lille;200093201;Métropole Européenne de Lille;59360;Loos;59;22567;False
+Lille;200093201;Métropole Européenne de Lille;59367;Lys-lez-Lannoy;59;14050;False
+Lille;200093201;Métropole Européenne de Lille;59368;La Madeleine;59;21790;False
+Lille;200093201;Métropole Européenne de Lille;59371;Le Maisnil;59;628;False
+Lille;200093201;Métropole Européenne de Lille;59378;Marcq-en-Barœul;59;40184;False
+Lille;200093201;Métropole Européenne de Lille;59386;Marquette-lez-Lille;59;12622;False
+Lille;200093201;Métropole Européenne de Lille;59388;Marquillies;59;1961;False
+Lille;200093201;Métropole Européenne de Lille;59410;Mons-en-Barœul;59;21105;False
+Lille;200093201;Métropole Européenne de Lille;59421;Mouvaux;59;13369;False
+Lille;200093201;Métropole Européenne de Lille;59426;Neuville-en-Ferrain;59;10002;False
+Lille;200093201;Métropole Européenne de Lille;59437;Noyelles-lès-Seclin;59;838;False
+Lille;200093201;Métropole Européenne de Lille;59457;Pérenchies;59;8455;False
+Lille;200093201;Métropole Européenne de Lille;59458;Péronne-en-Mélantois;59;1025;False
+Lille;200093201;Métropole Européenne de Lille;59470;Prémesques;59;2031;False
+Lille;200093201;Métropole Européenne de Lille;59477;Provin;59;4428;False
+Lille;200093201;Métropole Européenne de Lille;59482;Quesnoy-sur-Deûle;59;6805;False
+Lille;200093201;Métropole Européenne de Lille;59487;Radinghem-en-Weppes;59;1410;False
+Lille;200093201;Métropole Européenne de Lille;59507;Ronchin;59;19787;False
+Lille;200093201;Métropole Européenne de Lille;59508;Roncq;59;14075;False
+Lille;200093201;Métropole Européenne de Lille;59512;Roubaix;59;98286;False
+Lille;200093201;Métropole Européenne de Lille;59522;Sailly-lez-Lannoy;59;1923;False
+Lille;200093201;Métropole Européenne de Lille;59523;Sainghin-en-Mélantois;59;2840;False
+Lille;200093201;Métropole Européenne de Lille;59524;Sainghin-en-Weppes;59;5638;False
+Lille;200093201;Métropole Européenne de Lille;59527;Saint-André-lez-Lille;59;13233;False
+Lille;200093201;Métropole Européenne de Lille;59550;Salomé;59;3182;False
+Lille;200093201;Métropole Européenne de Lille;59553;Santes;59;5652;False
+Lille;200093201;Métropole Européenne de Lille;59560;Seclin;59;13261;False
+Lille;200093201;Métropole Européenne de Lille;59566;Sequedin;59;4675;False
+Lille;200093201;Métropole Européenne de Lille;59585;Templemars;59;3669;False
+Lille;200093201;Métropole Européenne de Lille;59598;Toufflers;59;3957;False
+Lille;200093201;Métropole Européenne de Lille;59599;Tourcoing;59;98772;False
+Lille;200093201;Métropole Européenne de Lille;59602;Tressin;59;1386;False
+Lille;200093201;Métropole Européenne de Lille;59609;Vendeville;59;1654;False
+Lille;200093201;Métropole Européenne de Lille;59611;Verlinghem;59;2682;False
+Lille;200093201;Métropole Européenne de Lille;59636;Wambrechies;59;11012;False
+Lille;200093201;Métropole Européenne de Lille;59643;Warneton;59;231;False
+Lille;200093201;Métropole Européenne de Lille;59646;Wasquehal;59;20726;False
+Lille;200093201;Métropole Européenne de Lille;59648;Wattignies;59;15525;False
+Lille;200093201;Métropole Européenne de Lille;59650;Wattrelos;59;40847;False
+Lille;200093201;Métropole Européenne de Lille;59653;Wavrin;59;7758;False
+Lille;200093201;Métropole Européenne de Lille;59656;Wervicq-Sud;59;5426;False
+Lille;200093201;Métropole Européenne de Lille;59658;Wicres;59;581;False
+Lille;200093201;Métropole Européenne de Lille;59660;Willems;59;2941;False
+Lille;200093201;Métropole Européenne de Lille;59670;Don;59;1387;False
+Rennes;243500139;Rennes Métropole;35001;Acigné;35;6874;False
+Rennes;243500139;Rennes Métropole;35022;Bécherel;35;677;False
+Rennes;243500139;Rennes Métropole;35024;Betton;35;12964;False
+Rennes;243500139;Rennes Métropole;35032;Bourgbarré;35;4804;False
+Rennes;243500139;Rennes Métropole;35039;Brécé;35;2232;False
+Rennes;243500139;Rennes Métropole;35047;Bruz;35;19683;False
+Rennes;243500139;Rennes Métropole;35051;Cesson-Sévigné;35;18761;False
+Rennes;243500139;Rennes Métropole;35055;Chantepie;35;10670;False
+Rennes;243500139;Rennes Métropole;35058;La Chapelle-Chaussée;35;1298;False
+Rennes;243500139;Rennes Métropole;35059;La Chapelle-des-Fougeretz;35;4738;False
+Rennes;243500139;Rennes Métropole;35065;La Chapelle-Thouarault;35;2304;False
+Rennes;243500139;Rennes Métropole;35066;Chartres-de-Bretagne;35;8880;False
+Rennes;243500139;Rennes Métropole;35076;Chavagne;35;4709;False
+Rennes;243500139;Rennes Métropole;35079;Chevaigné;35;2397;False
+Rennes;243500139;Rennes Métropole;35080;Cintré;35;2645;False
+Rennes;243500139;Rennes Métropole;35081;Clayes;35;947;False
+Rennes;243500139;Rennes Métropole;35088;Corps-Nuds;35;3567;False
+Rennes;243500139;Rennes Métropole;35120;Gévezé;35;6061;False
+Rennes;243500139;Rennes Métropole;35131;L'Hermitage;35;4730;False
+Rennes;243500139;Rennes Métropole;35139;Laillé;35;5225;False
+Rennes;243500139;Rennes Métropole;35144;Langan;35;1106;False
+Rennes;243500139;Rennes Métropole;35180;Miniac-sous-Bécherel;35;776;False
+Rennes;243500139;Rennes Métropole;35189;Montgermont;35;3827;False
+Rennes;243500139;Rennes Métropole;35196;Mordelles;35;7911;False
+Rennes;243500139;Rennes Métropole;35204;Nouvoitou;35;3911;False
+Rennes;243500139;Rennes Métropole;35206;Noyal-Châtillon-sur-Seiche;35;8359;False
+Rennes;243500139;Rennes Métropole;35208;Orgères;35;5732;False
+Rennes;243500139;Rennes Métropole;35210;Pacé;35;11703;False
+Rennes;243500139;Rennes Métropole;35216;Parthenay-de-Bretagne;35;1793;False
+Rennes;243500139;Rennes Métropole;35238;Rennes;35;230890;True
+Rennes;243500139;Rennes Métropole;35240;Le Rheu;35;9839;False
+Rennes;243500139;Rennes Métropole;35245;Romillé;35;4189;False
+Rennes;243500139;Rennes Métropole;35250;Saint-Armel;35;2433;False
+Rennes;243500139;Rennes Métropole;35266;Saint-Erblon;35;3651;False
+Rennes;243500139;Rennes Métropole;35275;Saint-Gilles;35;5576;False
+Rennes;243500139;Rennes Métropole;35278;Saint-Grégoire;35;9957;False
+Rennes;243500139;Rennes Métropole;35281;Saint-Jacques-de-la-Lande;35;13800;False
+Rennes;243500139;Rennes Métropole;35315;Saint-Sulpice-la-Forêt;35;1580;False
+Rennes;243500139;Rennes Métropole;35334;Thorigné-Fouillard;35;8667;False
+Rennes;243500139;Rennes Métropole;35351;Le Verger;35;1389;False
+Rennes;243500139;Rennes Métropole;35352;Vern-sur-Seiche;35;8207;False
+Rennes;243500139;Rennes Métropole;35353;Vezin-le-Coquet;35;6471;False
+Rennes;243500139;Rennes Métropole;35363;Pont-Péan;35;4245;False

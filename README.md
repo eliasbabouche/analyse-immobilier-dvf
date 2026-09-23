@@ -19,9 +19,9 @@
 | | |
 |---|---|
 | Source | [Demandes de valeurs foncières géolocalisées](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/) (DGFiP, mise en forme Etalab) |
-| Complément | Composition communale des EPCI et populations légales ([INSEE](https://www.insee.fr/fr/information/2510634)) |
+| Complément | Communes de chaque métropole (référentiel INSEE), via l'[API Découpage administratif](https://geo.api.gouv.fr/decoupage-administratif) |
 | Volume | ~80 000 lignes pour un département comme la Loire-Atlantique, environ 3 millions par an pour la France |
-| Période | 2021 à 2025 |
+| Période | 2021 à 2025 (millésime Etalab de décembre 2025, figé) |
 | Licence | Licence Ouverte / Open Licence 2.0 |
 | Mise à jour | semestrielle (avril et octobre) |
 
@@ -31,7 +31,7 @@ type de bien, surface bâtie, nombre de pièces, coordonnées GPS.
 Les données brutes ne sont pas versionnées. Pour les récupérer :
 
 ```bash
-python src/telecharger_donnees.py
+python -m src.telecharger_donnees
 ```
 
 ## Méthode
