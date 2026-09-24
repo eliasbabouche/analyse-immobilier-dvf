@@ -181,6 +181,111 @@ Le code vit dans `src/` et reste testable ; le notebook importe depuis `src/` et
 l'histoire. Ses sorties sont volontairement conservées dans le fichier pour que les
 graphiques s'affichent sur GitHub sans rien exécuter.
 
+## Questions fréquentes
+
+<details>
+<summary><b>Pourquoi la médiane plutôt que la moyenne ?</b></summary>
+
+Parce que la moyenne est ruinée par les erreurs qui subsistent après nettoyage, alors que la
+médiane les absorbe. Le tableau du piège multi-lots le montre : sur les appartements nantais,
+passer d'un calcul par ligne à un calcul par vente corrige la **moyenne de +177 %**
+(9 555 € → 3 450 € le m²), mais la **médiane de +4 %** seulement (3 516 € → 3 390 €).
+
+Autrement dit, un nettoyage imparfait combiné à une médiane donne un résultat à peu près
+juste, là où le même nettoyage combiné à une moyenne donne un résultat absurde. Je garde les
+deux protections plutôt qu'une : je dédoublonne par vente *et* je travaille sur la médiane.
+
+</details>
+
+<details>
+<summary><b>Pourquoi ne pas simplement additionner les prix du fichier ?</b></summary>
+
+Parce qu'une vente qui comprend plusieurs biens — un appartement, sa cave, son parking —
+occupe plusieurs lignes, et **le prix total de la vente est répété sur chacune**. Les
+additionner revient à compter la même transaction trois fois.
+
+L'effet n'est pas marginal : sur la Loire-Atlantique en 2025, le volume total des ventes
+passe de 7,4 Md€ (calcul correct) à 30,0 Md€ (calcul naïf), soit un facteur 4,1.
+
+Le nettoyage ne conserve donc qu'une ligne par vente, et ne garde que les ventes contenant
+exactement un logement — 94 % des ventes contenant au moins un logement. Des tests
+verrouillent ce traitement, y compris **l'ordre des étapes** : il faut compter les logements
+d'une vente *avant* d'écarter les surfaces nulles, sinon une vente de deux appartements dont
+l'un a une surface manquante passe pour une vente d'un seul.
+
+</details>
+
+<details>
+<summary><b>Pourquoi analyser les appartements et les maisons séparément ?</b></summary>
+
+Parce que les mélanger mesure la composition du marché autant que l'effet du lieu. À Nantes,
+les appartements représentent 80 % des ventes dans la ville-centre contre 41 % dans le reste
+de la métropole : comparer les deux zones tous biens confondus, c'est comparer un marché
+d'appartements à un marché de maisons.
+
+Le chiffre qui tranche : à Nantes en 2021, le centre dépasse la périphérie de **20 % tous
+biens confondus, mais de 30 % à type de bien égal**. L'écart réel serait sous-estimé d'un
+tiers.
+
+</details>
+
+<details>
+<summary><b>Le résultat contredit l'intuition — comment savoir qu'il est juste ?</b></summary>
+
+Il la contredit effectivement : je partais de l'idée d'un écart centre-périphérie qui se
+creuse, et pour les appartements les données montrent l'inverse, dans 9 villes sur 10.
+
+Trois éléments me font tenir ce résultat. D'abord, la question de départ est écrite en tête
+de ce README **depuis avant la première ligne de code** — ce qui m'a empêché de la réécrire
+après coup pour qu'elle colle à ce que je trouvais. Ensuite, je publie les exceptions plutôt
+que de les lisser : Lille ne suit pas la tendance (ratio 1,42 → 1,43), et sur les maisons
+l'écart se creuse à Nice, Marseille et Bordeaux. Enfin, l'effet est massif et cohérent d'une
+ville à l'autre — Nantes 1,30 → 1,13, Lyon 1,46 → 1,34, Paris 1,95 → 1,84 — ce qui serait
+surprenant pour un artefact de traitement.
+
+Un résultat conforme à l'intuition mérite d'ailleurs autant de méfiance : c'est celui qu'on
+ne vérifie pas.
+
+</details>
+
+<details>
+<summary><b>Comment se protéger des erreurs qui ne déclenchent aucun message ?</b></summary>
+
+C'est la difficulté principale du projet : les erreurs les plus coûteuses ne font rien
+planter, elles rendent simplement les chiffres faux.
+
+Trois exemples rencontrés. Filtrer Paris sur son code commune renvoie zéro vente, parce que
+le DVF code Paris, Lyon et Marseille par arrondissement. Écrire à la main la liste des
+départements à télécharger aurait oublié des communes, parce que le Grand Paris s'étend sur
+six départements et Aix-Marseille sur trois. Et inverser deux étapes du nettoyage conserve à
+tort des ventes de deux logements.
+
+D'où deux réflexes systématiques : **déduire les listes d'un référentiel officiel** (ici
+l'API Découpage administratif de l'INSEE) au lieu de les écrire, et **tester chaque règle sur
+de petits cas fabriqués à la main** dont je connais le résultat attendu. J'ai aussi vérifié
+que chaque test échoue bien quand je casse volontairement le code qu'il couvre — un test qui
+reste vert sur du code faux ne teste rien.
+
+</details>
+
+<details>
+<summary><b>Pourquoi définir la périphérie comme le reste de la métropole ?</b></summary>
+
+C'est un découpage administratif officiel (l'EPCI défini par l'INSEE), donc simple à
+expliquer, reproductible et vérifiable par n'importe qui. Une définition par distance au
+centre aurait demandé de fixer un rayon arbitraire, difficile à justifier et différent pour
+chaque ville.
+
+La limite, que j'assume : les métropoles varient beaucoup en taille. Aix-Marseille compte
+près de cent communes, Rennes Métropole bien moins — les « périphéries » comparées ne sont
+donc pas homogènes. C'est visible dans les résultats : à Marseille et Montpellier, la
+périphérie (Aix-en-Provence, Cassis) est plus chère que le centre.
+
+Même logique pour les autres arbitrages du projet : à chaque fois j'ai retenu la règle la
+plus simple à justifier, et écrit ce qu'elle coûte dans les limites.
+
+</details>
+
 ## Licence
 
 MIT — voir [LICENSE](LICENSE).
