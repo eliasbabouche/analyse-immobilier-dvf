@@ -1,8 +1,4 @@
-# --- Contexte de travail local, jamais publie ---
-# CLAUDE.md contient le brief du projet et sert aux sessions d'assistance.
-# Le depot est public et sert de portfolio : il ne doit pas etre pousse.
-CLAUDE.md
-BRIEF.md
+# --- Notes de travail locales ---
 notes/
 
 # --- Secrets : ne jamais retirer ces lignes ---
