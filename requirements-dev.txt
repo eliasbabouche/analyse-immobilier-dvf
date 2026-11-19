@@ -1,0 +1,12 @@
+# Developpement : notebook de restitution, tests et style.
+# L'application deployee n'installe que requirements.txt.
+-r requirements.txt
+
+# Notebook de restitution
+matplotlib==3.10.8
+jupyter==1.1.1
+notebook==7.6.5
+
+# Tests et style (memes versions que la CI)
+pytest==9.1.1
+ruff==0.16.8

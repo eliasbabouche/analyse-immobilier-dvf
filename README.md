@@ -161,6 +161,7 @@ streamlit run app.py
 ## Tests
 
 ```bash
+pip install -r requirements-dev.txt   # pytest, ruff et le notebook
 pytest
 ```
 
